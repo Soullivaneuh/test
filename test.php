@@ -2,4 +2,5 @@
 
 $arr = array(
     'toto' => 'titi',
+    'new' 		=> 'property',
 );
