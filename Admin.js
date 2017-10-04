@@ -11,7 +11,7 @@
 
 var Admin = {
 
-    collectionCounters: [],
+    lolCounters: [],
 
     /**
      * This function must be called when an ajax call is done, to ensure
@@ -321,7 +321,7 @@ var Admin = {
                     counter = parseInt(matches[1], 10);
                 }
             });
-            Admin.collectionCounters[collection.attr('id')] = counter;
+            Admin.lolCounters[collection.attr('id')] = counter;
         });
     },
 
@@ -331,7 +331,7 @@ var Admin = {
             Admin.stopEvent(event);
 
             var container = jQuery(this).closest('[data-prototype]');
-            var counter = ++Admin.collectionCounters[container.attr('id')];
+            var counter = ++Admin.lolCounters[container.attr('id')];
             var proto = container.attr('data-prototype');
             var protoName = container.attr('data-prototype-name') || '__name__';
             // Set field id
