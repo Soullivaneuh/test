@@ -1,0 +1,8 @@
+linters:
+  phpcs:
+    standard: PSR2
+files:
+  ignore:
+    - 'vendor/*'
+    - 'bower_components/*'
+    - 'node_modules/*'
