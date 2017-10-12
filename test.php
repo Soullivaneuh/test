@@ -1,5 +1,5 @@
 <?php
 
 $arr = array(
-    'toto' =>     'titi',
+    'toto' => 'titi',
 );
