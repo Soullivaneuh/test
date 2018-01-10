@@ -1,9 +1,11 @@
-<?php echo 'test';
+<?php
+
+echo 'test';
 
 $arr = array(
-    'toto' =>    'titi',
+    'toto' => 'titi',
 );
 
 if (true) {
-} else if (false) {
+} elseif (false) {
 }
